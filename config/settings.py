@@ -49,6 +49,7 @@ MIDDLEWARE = [
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
     'ip_tracking.middleware.IPTrackingMiddleware',
+    'django_ip_geolocation.middleware.IpGeolocationMiddleware',
 ]
 
 ROOT_URLCONF = 'config.urls'
